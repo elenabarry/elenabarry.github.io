@@ -1,6 +1,7 @@
-tuts
-====
+https://elenabarry.github.io
 
-Demos for Tuts+ Tutorials by Jeff Reifman
+Emoji Abuse Scores
+
+Based on a tutorial by Jeff Reifman
 
 See [Tutorials by Jeff reifman](http://tutsplus.com/authors/jeff-reifman)
