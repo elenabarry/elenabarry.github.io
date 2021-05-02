@@ -2,16 +2,13 @@
 
 https://elenabarry.github.io
 
-This work is based of 
-
-
-
-
-I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [21]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [21] 
+I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [1]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [1] 
 
 My focus was cyberbullying; therefore, I only included abusive, hateful, and normal tweets were included in the dataset, and tweets labelled as ‘spam’ were removed.
 
-To find out the underlying emotions of abusive tweets that used emojis, I calculated the probabilities of each emoji in the dataset to be in either an abusive, hateful, or normal context. Founta et al. [21] produced a sentiment lexicon of the 751 most frequent emojis. I have followed their process and calculated 334 new abuse scores of emojis from -1 and 1 on whether the emoji is present in a normal, hateful, or abusive context.
+To find out the underlying emotions of abusive tweets that used emojis, I calculated the probabilities of each emoji in the dataset to be in either an abusive, hateful, or normal context. 
+
+Produced a sentiment lexicon of the 751 most frequent emojis. I have followed their process and calculated 334 new abuse scores of emojis from -1 and 1 on whether the emoji is present in a normal, hateful, or abusive context.
 
 Emojis with at least 5 occurrences are included, resulting in a lexicon of 334 emojis. The sentiment scores for the emojis with fewer than 5 occurrences are not very reliable.
 
@@ -24,16 +21,7 @@ The number of occurrences N, of each emoji to appear in each label, c, allows a 
 The mean of the distribution gives an emoji it’s abuse score
 
 ## A Worked Example
-For the face palm emoji ♀ I divided my dataset into equal 4000 parts of abusive, hateful and normal labels.
-I then count the number of occurrences of the emoji in each dataset using this script.
-Number of Number of Number of
-♀ in abusive dataset = 236 ♀ in hateful dataset = 100 ♀ in normal dataset = 45
-Total number of ♀ in all datasets = 381
-Then in order to find the probability of the emoji to appear in an abusive, hateful or normal context, I calculated the probability of each set: pc = N(c)/N
-Pabusive = 236/381 = 0.619 Phateful = 100/381 = 0.262 Pnormal = 45/381 = 0.118
-To create the abuse score I needed to find the mean of the discrete probability distribution: discrete probability distribution = P+ - P-
-S = 0.118-0.619 = - 0.501
-The final abuse scores for all emojis can be found in a xlsx here.
+
    
 
 ## Dataset 
