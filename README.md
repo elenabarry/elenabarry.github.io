@@ -2,6 +2,9 @@
 
 https://elenabarry.github.io
 
+![Screenshot 2021-05-02 at 10 50 49](https://user-images.githubusercontent.com/53048127/116809096-59e8a500-ab34-11eb-92fd-78e28d4b0ab0.png)
+
+
 I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [1]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [1] 
 
 My focus was cyberbullying; therefore, I only included abusive, hateful, and normal tweets were included in the dataset, and tweets labelled as ‘spam’ were removed.
