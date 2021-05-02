@@ -3,7 +3,7 @@
 https://elenabarry.github.io
 
 
-![Screenshot 2021-05-02 at 11 04 13](https://user-images.githubusercontent.com/53048127/116809510-4c341f00-ab36-11eb-8646-b0aab3b39dd5.png)
+![Screenshot 2021-05-02 at 11 06 47](https://user-images.githubusercontent.com/53048127/116809577-8ef5f700-ab36-11eb-914c-770536b6a07a.png)
 
 
 I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [1]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [1] 
