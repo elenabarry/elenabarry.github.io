@@ -19,7 +19,7 @@ For each emoji, I was able to use these three labels to form a discrete probabil
 
 The number of occurrences N, of each emoji to appear in each label, c, allows a probability, pc, to be estimated. Multiple emojis in a tweet are counted.
 
-The mean of the distribution gives an emoji it’s abuse score
+The mean of the distribution gives an emoji it’s abuse score.
 
 ## A Worked Example
 
