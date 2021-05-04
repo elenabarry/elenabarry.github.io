@@ -1,6 +1,6 @@
 # Emoji Abuse Scores 
 
-Inspired by the work of Novak et al. [1] who created the first emoji sentiment lexicon denoted as the [Emoji Sentiment Ranking](http://kt.ijs.si/data/Emoji_sentiment_ranking/). I have created the first emoji abuse lexicon which provides abuse scores for the 334 most frequently used emojis. The full lexicon can be found here: https://elenabarry.github.io
+Inspired by the work of Novak et al. [1] who created the first emoji sentiment lexicon denoted as the [Emoji Sentiment Ranking](http://kt.ijs.si/data/Emoji_sentiment_ranking/). I have created the first emoji abuse lexicon which provides abuse scores for the 334 most frequently used emojis. The full lexicon can be found [here](https://elenabarry.github.io).
 
 ![Screenshot 2021-05-02 at 11 06 47](https://user-images.githubusercontent.com/53048127/116809577-8ef5f700-ab36-11eb-914c-770536b6a07a.png)
 
