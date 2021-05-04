@@ -4,7 +4,7 @@ Inspired by the work of Novak et al. [1] who created the first emoji sentiment l
 
 ![Screenshot 2021-05-02 at 11 06 47](https://user-images.githubusercontent.com/53048127/116809577-8ef5f700-ab36-11eb-914c-770536b6a07a.png)
 
-I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [1]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [2] My focus was cyberbullying; therefore, I only included abusive, hateful, and normal tweets were included in the dataset, and tweets labelled as ‘spam’ were removed.
+I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [2]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [2] My focus was cyberbullying; therefore, I only included abusive, hateful, and normal tweets were included in the dataset, and tweets labelled as ‘spam’ were removed.
 
 To find out the underlying emotions of abusive tweets that used emojis, I calculated the probabilities of each emoji in the dataset to be in either an abusive, hateful, or normal context. 
 
