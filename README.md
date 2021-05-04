@@ -27,17 +27,17 @@ For the Face with Tears of Joy emoji 😂 I divided my dataset into equal 3000 p
 
 Number of Number of Number of
 
-⋅⋅* 😂 in abusive dataset = 236 
-⋅⋅* 😂 in hateful dataset = 100 
-⋅⋅* 😂 in normal dataset = 45
+* 😂 in abusive dataset = 236 
+* 😂 in hateful dataset = 100 
+* 😂 in normal dataset = 45
 
 Total number of 😂 in all datasets = 381
 
 Then in order to find the probability of the emoji to appear in an abusive, hateful or normal context, I calculated the probability of each set: pc = N(c)/N
 
-⋅⋅* Pabusive = 236/381 = 0.619 
-⋅⋅* Phateful = 100/381 = 0.262 
-⋅⋅* Pnormal = 45/381 = 0.118
+* Pabusive = 236/381 = 0.619 
+* Phateful = 100/381 = 0.262 
+* Pnormal = 45/381 = 0.118
 
 To create the abuse score I needed to find the mean of the discrete probability distribution: discrete probability distribution = P+ - P-
 
