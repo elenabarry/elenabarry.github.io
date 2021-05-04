@@ -1,6 +1,6 @@
 # Emoji Abuse Scores 
 
-https://elenabarry.github.io
+The full lexicon can be found here: https://elenabarry.github.io
 
 
 ![Screenshot 2021-05-02 at 11 06 47](https://user-images.githubusercontent.com/53048127/116809577-8ef5f700-ab36-11eb-914c-770536b6a07a.png)
