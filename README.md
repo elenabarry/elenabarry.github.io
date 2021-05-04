@@ -23,7 +23,7 @@ The mean of the distribution gives an emoji it’s abuse score.
 
 ## A Worked Example
 
-### Face with Tears of Joy emoji 😂
+### Face with Tears of Joy 😂
 
 I divided the dataset into equal 3000 parts of abusive, hateful and normal labels.
 
