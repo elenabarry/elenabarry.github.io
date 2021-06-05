@@ -45,8 +45,6 @@ To create the abuse score I needed to find the mean of the discrete probability 
 
 S = 0.178 - 0.416 = -0.238
 
-The calculations for all emojis can been found here. 
-
 ## References 
    
 [1]P.  Kralj Novak, J.  Smailović, B.  Sluban and I.  Mozetič, "Sentiment of Emojis", PLOS ONE, vol. 10, no. 12, p. e0144296, 2015. Available: 10.1371/journal.pone.0144296.
