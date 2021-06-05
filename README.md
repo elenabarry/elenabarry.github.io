@@ -5,13 +5,13 @@ Inspired by the work of Novak et al. [1] who created the first emoji sentiment l
 ![Screenshot 2021-05-02 at 11 06 47](https://user-images.githubusercontent.com/53048127/116809577-8ef5f700-ab36-11eb-914c-770536b6a07a.png)
 
 ## Process
-I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [2]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [2] My focus was cyberbullying; therefore, I only included abusive, hateful, and normal tweets were included in the dataset, and tweets labelled as ‘spam’ were removed.
+I used the corresponding dataset from the paper ‘Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior’ [2]. Each tweet is labelled as abusive/hateful/spam/normal by 5 CrowdFlower workers. Founta et al. [2] My focus was cyberbullying; therefore, I only included abusive, hateful, and normal tweets, and tweets labelled as ‘spam’ were removed.
 
 To find out the underlying emotions of abusive tweets that used emojis, I calculated the probabilities of each emoji in the dataset to be in either an abusive, hateful, or normal context. 
 
 I have followed Novak et al. process and calculated 334 new abuse scores of emojis from -1 and 1 on whether the emoji is present in a normal, hateful, or abusive context. 
 
-I split the dataset into three equal sizes of abusive, hateful and normal tweets. After duplicates were removed, this resulted in 3000 tweets for abusive and normal categories and then a multiplier was used for the hateful category to upsample it. Emojis with at least 5 occurrences are included, resulting in a lexicon of 334 emojis. The sentiment scores for the emojis with fewer than 5 occurrences are not very reliable.
+I split the dataset into three equal sizes of abusive, hateful and normal tweets. After duplicates were removed, this resulted in 3000 tweets for abusive and normal categories and then a multiplier was used for the hateful category to upsample it. Emojis with at least 5 occurrences are included, resulting in a lexicon of 334 emojis. The abuse scores for the emojis with fewer than 5 occurrences are not very reliable.
 
 Abuse labels can take one of three values: abusive ≺ hateful ≺ normal. Which correspond to a discrete, 3-valued variable c ∈ {−1, 0, +1}.
 
